@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line {
+    background-color:  #222222;
+    height: 73px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 40px;
+}
+
+.item:nth-child(n+2) {
+    padding-left: 33px;
+}
+
+.item:last-child {
+    padding-right: 12px;
+}
+
+.first {
+    background-color: #F1E4E6;
+}
+
+.intro {
+    height: 764px;
+    background-image: url(img/main/man.png);
+    background-repeat: no-repeat;
+    background-position: -225px bottom;
+    background-size: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 290px;
+    padding-right: 101px;
+}
+
+.intro__text {
+    max-width: 421px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 10px;
+}
+.intro__text h1 {
+    padding-left: 16px;
+    border-left: 12px solid #F16D7F;
+}
+
+.big {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.middle {
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+span {
+    color: #F16D7F;
+}
+
+.trands {
+    margin-top: 54px;
+    background-color: #fff;
+}
+
+.trands__top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.forMen,
+.forWomen,
+.forKids {
+    width: 360px;
+    height: 260px;
+}
+
+.dark {
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 22, 22, 0.7);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.forWomen {
+    background-image: url(img/main/trands/women.jpg);
+}
+
+.forMen {
+    background-image: url(img/main/trands/men.jpg);
+}
+
+.forKids {
+    background-image: url(img/main/trands/kids.jpg);
+}
+
+h3 {
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.trands__bottom {
+    margin-top: 30px;
+}
+
+.accesories {
+    max-width: 100%;
+    height: 180px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(img/main/trands/accesories.jpg);
+}
+
+.content {
+    margin-top: 96px;
+}
+
+.content__top {
+    text-align: center;
+}
+
+.content__top h2 {
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #222222;
+}
+
+.content__top p {
+    margin-top: 6px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.cards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.clother {
+    display: block;
+    margin-bottom: 12.65px;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card__text {
+    margin-left: 18px;
+    margin-right: 29px;
+}
+
+.card__text p {
+    display: block;
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.card:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.bottom {
+    margin-top: 48.5px;
+    margin-bottom: 95.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom__all {
+
+    padding: 14.5px 38.5px 13.5px 38.5px;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    justify-content: center;
+    border: 1px solid #FF6A6A;
+}
